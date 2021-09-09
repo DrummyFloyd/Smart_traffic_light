@@ -16,16 +16,16 @@ void init() {
 }
 
 void loop() {
-    static uint32_t counter = 0;
-
-    uint8_t currentButtonStatus = GPIO_ReadInputDataBit(GPIOA, USER_BUTTON);
-
-    if (lastButtonStatus != currentButtonStatus && currentButtonStatus != RESET) {
-        ++counter;
-        GPIO_ResetBits(GPIOD, LEDS);
-        GPIO_SetBits(GPIOD, LED[counter % 4]);
-    }
-    lastButtonStatus = currentButtonStatus;
+//    static uint32_t counter = 0;
+//
+//    uint8_t currentButtonStatus = GPIO_ReadInputDataBit(GPIOA, USER_BUTTON);
+//
+//    if (lastButtonStatus != currentButtonStatus && currentButtonStatus != RESET) {
+//        ++counter;
+//        GPIO_ResetBits(GPIOD, LEDS);
+//        GPIO_SetBits(GPIOD, LED[counter % 4]);
+//    }
+//    lastButtonStatus = currentButtonStatus;
 }
 
 void initLeds() {
