@@ -30,7 +30,7 @@
 // ----------------------------------------------------------------------------
 
 void
-blink_led_init()
+blink_led_init(uint16_t pin)
 {
   // Enable GPIO Peripheral clock
   SET_BIT(RCC->AHB1ENR, BLINK_RCC_MASKx(BLINK_PORT_NUMBER));
@@ -38,38 +38,46 @@ blink_led_init()
   GPIO_InitTypeDef GPIO_InitStructure;
 
   // Configure pin in output push/pull mode
-  GPIO_InitStructure.Pin = BLINK_PIN_MASK(BLINK_PIN_NUMBER);
+  GPIO_InitStructure.Pin = BLINK_PIN_MASK(pin);
   GPIO_InitStructure.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStructure.Speed = GPIO_SPEED_FREQ_HIGH;
   GPIO_InitStructure.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(BLINK_GPIOx(BLINK_PORT_NUMBER), &GPIO_InitStructure);
 
-  // Start with led turned off
-  blink_led_off();
+  // Start with leds turned off
+  blink_led_off(12);
+  blink_led_off(13);
+  blink_led_off(14);
+  blink_led_off(15);
 }
 
 void
-blink_led_on(void)
+blink_led_on(uint8_t index)
 {
-#if (BLINK_ACTIVE_LOW)
-  HAL_GPIO_WritePin(BLINK_GPIOx(BLINK_PORT_NUMBER),
-    BLINK_PIN_MASK(BLINK_PIN_NUMBER), GPIO_PIN_RESET);
-#else
-  HAL_GPIO_WritePin(BLINK_GPIOx(BLINK_PORT_NUMBER),
-    BLINK_PIN_MASK(BLINK_PIN_NUMBER), GPIO_PIN_SET);
-#endif
+	if(index == 0){
+		puts("on doit allumer maintenant 12 et 14\n======================================\n");
+		HAL_GPIO_WritePin(BLINK_GPIOx(BLINK_PORT_NUMBER), BLINK_PIN_MASK(12U), GPIO_PIN_SET);
+		HAL_GPIO_WritePin(BLINK_GPIOx(BLINK_PORT_NUMBER), BLINK_PIN_MASK(14U), GPIO_PIN_SET);
+
+		blink_led_off(13);
+//		blink_led_off(15);
+	} else if(index == 1){
+		HAL_GPIO_WritePin(BLINK_GPIOx(BLINK_PORT_NUMBER), BLINK_PIN_MASK(13U), GPIO_PIN_SET);
+		HAL_GPIO_WritePin(BLINK_GPIOx(BLINK_PORT_NUMBER), BLINK_PIN_MASK(15U), GPIO_PIN_SET);
+
+		blink_led_off(12);
+		blink_led_off(14);
+	} else{
+		puts("Mauvaise valeur comme voie prioritaire, vueillez choisir entre 0 et 1");
+	}
+
 }
 
 void
-blink_led_off(void)
+blink_led_off(uint8_t index)
 {
-#if (BLINK_ACTIVE_LOW)
-  HAL_GPIO_WritePin(BLINK_GPIOx(BLINK_PORT_NUMBER),
-    BLINK_PIN_MASK(BLINK_PIN_NUMBER), GPIO_PIN_SET);
-#else
-  HAL_GPIO_WritePin(BLINK_GPIOx(BLINK_PORT_NUMBER),
-    BLINK_PIN_MASK(BLINK_PIN_NUMBER), GPIO_PIN_RESET);
-#endif
+  HAL_GPIO_WritePin(BLINK_GPIOx(BLINK_PORT_NUMBER), BLINK_PIN_MASK(index), GPIO_PIN_RESET);
+
 }
 
 // ----------------------------------------------------------------------------
