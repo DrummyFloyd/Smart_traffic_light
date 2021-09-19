@@ -23,7 +23,7 @@ Archive member included to satisfy reference by file (symbol)
 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
                               /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o) (_malloc_r)
 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
-                              ./src/main.o (puts)
+                              ./src/led.o (puts)
 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
                               /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
@@ -3981,8 +3981,6 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./src/timer.o
  .text.timer_start
                 0x0000000000000000       0x38 ./src/timer.o
- .text.timer_sleep
-                0x0000000000000000       0x14 ./src/timer.o
  .debug_macro   0x0000000000000000      0xa84 ./src/timer.o
  .debug_macro   0x0000000000000000       0x2e ./src/timer.o
  .debug_macro   0x0000000000000000       0x2f ./src/timer.o
@@ -4059,6 +4057,225 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6e ./src/timer.o
  .debug_macro   0x0000000000000000      0x1e9 ./src/timer.o
  .debug_macro   0x0000000000000000      0x12d ./src/timer.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .group         0x0000000000000000        0xc ./src/traffic_manager.o
+ .text          0x0000000000000000        0x0 ./src/traffic_manager.o
+ .data          0x0000000000000000        0x0 ./src/traffic_manager.o
+ .bss           0x0000000000000000        0x0 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0xa84 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x22 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x64 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x18 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x94 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x35 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x34 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x16 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x57 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x97 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x333 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xfd ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x10 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x16 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x43 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x34 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x10 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x58 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x182 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x10 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x6a ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x1c ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x52 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x22 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x10 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x40 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xd5 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x1c ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x3d ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x16 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x16f ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x16 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x35 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x16 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x29 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x16 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x51a ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x2e ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x2f ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x103 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x1df ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x1c ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x22 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xd9 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000     0x102d ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x11f ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000    0x15e3c ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x43 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x3a2 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000     0x3659 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x54 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x96b ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x9fe ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x117 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x13e ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x27 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x174 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x287 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x5f ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x236 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x391 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x176 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x40f ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x22 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xea ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xa0 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x3c ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x1f ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x1d2 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0xccf ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x12c ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x21e ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x2e ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x543 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x88 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xea ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x184 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x1b5 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xd6 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x26b ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x1a7 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x46 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x4a ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x78 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x11a ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x7e ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x89 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xa4 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x31a ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x405 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xe4 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x861 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x1d5 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x225 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x8a0 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x47 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x287 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x217 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x1b5 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x2db ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x8d ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x21e ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0xba ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x6e ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x1e9 ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000      0x12d ./src/traffic_manager.o
+ .debug_macro   0x0000000000000000       0x3a ./src/traffic_manager.o
  .group         0x0000000000000000        0xc ./src/write.o
  .text          0x0000000000000000        0x0 ./src/write.o
  .data          0x0000000000000000        0x0 ./src/write.o
@@ -4276,6 +4493,7 @@ LOAD ./src/led.o
 LOAD ./src/main.o
 LOAD ./src/stm32f4xx_hal_msp.o
 LOAD ./src/timer.o
+LOAD ./src/traffic_manager.o
 LOAD ./src/write.o
 LOAD /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libstdc++_nano.a
 LOAD /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libm.a
@@ -4295,7 +4513,7 @@ END GROUP
                 0x000000002001fc00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
                 [!provide]                        PROVIDE (_Main_Stack_Limit = __Main_Stack_Limit)
                 0x0000000000000100                _Minimum_Stack_Size = 0x100
-                0x0000000020000244                PROVIDE (_Heap_Begin = _end_noinit)
+                0x000000002000024c                PROVIDE (_Heap_Begin = _end_noinit)
                 0x000000002001fc00                PROVIDE (_Heap_Limit = (__stack - __Main_Stack_Size))
 
 .isr_vector     0x0000000008000000      0x3e8
@@ -4411,16 +4629,16 @@ END GROUP
 
 .inits          0x00000000080003e8       0x28
                 0x00000000080003e8                __data_regions_array_start = .
-                0x00000000080003e8        0x4 LONG 0x80032f0 LOADADDR (.data)
+                0x00000000080003e8        0x4 LONG 0x8003664 LOADADDR (.data)
                 0x00000000080003ec        0x4 LONG 0x20000000 ADDR (.data)
                 0x00000000080003f0        0x4 LONG 0x20000078 (ADDR (.data) + SIZEOF (.data))
-                0x00000000080003f4        0x4 LONG 0x80032f0 LOADADDR (.data_CCMRAM)
+                0x00000000080003f4        0x4 LONG 0x8003664 LOADADDR (.data_CCMRAM)
                 0x00000000080003f8        0x4 LONG 0x10000000 ADDR (.data_CCMRAM)
                 0x00000000080003fc        0x4 LONG 0x10000000 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x0000000008000400                __data_regions_array_end = .
                 0x0000000008000400                __bss_regions_array_start = .
                 0x0000000008000400        0x4 LONG 0x20000078 ADDR (.bss)
-                0x0000000008000404        0x4 LONG 0x20000244 (ADDR (.bss) + SIZEOF (.bss))
+                0x0000000008000404        0x4 LONG 0x2000024c (ADDR (.bss) + SIZEOF (.bss))
                 0x0000000008000408        0x4 LONG 0x10000000 ADDR (.bss_CCMRAM)
                 0x000000000800040c        0x4 LONG 0x10000000 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
                 0x0000000008000410                __bss_regions_array_end = .
@@ -4446,7 +4664,7 @@ END GROUP
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x0000000008000410     0x2ed7
+.text           0x0000000008000410     0x324b
  *(.text .text.*)
  .text.HAL_InitTick
                 0x0000000008000410       0x4c ./system/src/stm32f4-hal/stm32f4xx_hal.o
@@ -4571,268 +4789,297 @@ END GROUP
  .text.assert_failed
                 0x00000000080019c4       0x14 ./src/initialize-hardware.o
                 0x00000000080019c4                assert_failed
- .text.blink_led_on
-                0x00000000080019d8       0x14 ./src/led.o
-                0x00000000080019d8                blink_led_on
  .text.blink_led_off
-                0x00000000080019ec       0x14 ./src/led.o
-                0x00000000080019ec                blink_led_off
+                0x00000000080019d8       0x18 ./src/led.o
+                0x00000000080019d8                blink_led_off
  .text.blink_led_init
-                0x0000000008001a00       0x38 ./src/led.o
-                0x0000000008001a00                blink_led_init
+                0x00000000080019f0       0x4c ./src/led.o
+                0x00000000080019f0                blink_led_init
+ .text.blink_led_on
+                0x0000000008001a3c       0x6c ./src/led.o
+                0x0000000008001a3c                blink_led_on
  .text.Init_PushButton
-                0x0000000008001a38       0x3c ./src/main.o
-                0x0000000008001a38                Init_PushButton
- .text.main     0x0000000008001a74       0x30 ./src/main.o
-                0x0000000008001a74                main
+                0x0000000008001aa8       0x3c ./src/main.o
+                0x0000000008001aa8                Init_PushButton
+ .text.main     0x0000000008001ae4       0x94 ./src/main.o
+                0x0000000008001ae4                main
  .text.HAL_MspInit
-                0x0000000008001aa4        0x2 ./src/stm32f4xx_hal_msp.o
-                0x0000000008001aa4                HAL_MspInit
- *fill*         0x0000000008001aa6        0x2 
+                0x0000000008001b78        0x2 ./src/stm32f4xx_hal_msp.o
+                0x0000000008001b78                HAL_MspInit
+ *fill*         0x0000000008001b7a        0x2 
+ .text.timer_sleep
+                0x0000000008001b7c       0x14 ./src/timer.o
+                0x0000000008001b7c                timer_sleep
  .text.timer_tick
-                0x0000000008001aa8       0x14 ./src/timer.o
-                0x0000000008001aa8                timer_tick
+                0x0000000008001b90       0x14 ./src/timer.o
+                0x0000000008001b90                timer_tick
  .text.SysTick_Handler
-                0x0000000008001abc        0xc ./src/timer.o
-                0x0000000008001abc                SysTick_Handler
- .text          0x0000000008001ac8       0x30 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
-                0x0000000008001ac8                __aeabi_uldivmod
+                0x0000000008001ba4        0xc ./src/timer.o
+                0x0000000008001ba4                SysTick_Handler
+ .text.great_between
+                0x0000000008001bb0        0x8 ./src/traffic_manager.o
+                0x0000000008001bb0                great_between
+ .text.switching
+                0x0000000008001bb8       0x24 ./src/traffic_manager.o
+                0x0000000008001bb8                switching
+ .text.display_queues
+                0x0000000008001bdc       0x28 ./src/traffic_manager.o
+                0x0000000008001bdc                display_queues
+ .text.display_priority_queue
+                0x0000000008001c04       0x24 ./src/traffic_manager.o
+                0x0000000008001c04                display_priority_queue
+ .text.analyse_queues_situation
+                0x0000000008001c28       0x5a ./src/traffic_manager.o
+                0x0000000008001c28                analyse_queues_situation
+ *fill*         0x0000000008001c82        0x2 
+ .text          0x0000000008001c84       0x30 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008001c84                __aeabi_uldivmod
  .text.__udivmoddi4
-                0x0000000008001af8      0x2d0 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
-                0x0000000008001af8                __udivmoddi4
- .text          0x0000000008001dc8        0x4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
-                0x0000000008001dc8                __aeabi_ldiv0
-                0x0000000008001dc8                __aeabi_idiv0
- .text.__errno  0x0000000008001dcc        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
-                0x0000000008001dcc                __errno
- .text.std      0x0000000008001dd8       0x48 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008001cb4      0x2d0 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x0000000008001cb4                __udivmoddi4
+ .text          0x0000000008001f84        0x4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000008001f84                __aeabi_ldiv0
+                0x0000000008001f84                __aeabi_idiv0
+ .text.__errno  0x0000000008001f88        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
+                0x0000000008001f88                __errno
+ .text.std      0x0000000008001f94       0x48 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x0000000008001e20        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008001e20                _cleanup_r
+                0x0000000008001fdc        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008001fdc                _cleanup_r
  .text.__sfmoreglue
-                0x0000000008001e2c       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008001e2c                __sfmoreglue
+                0x0000000008001fe8       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008001fe8                __sfmoreglue
  .text.__sfp_lock_acquire
-                0x0000000008001e58        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008001e58                __sfp_lock_acquire
+                0x0000000008002014        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008002014                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0000000008001e64        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008001e64                __sfp_lock_release
+                0x0000000008002020        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008002020                __sfp_lock_release
  .text.__sinit_lock_acquire
-                0x0000000008001e70        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008001e70                __sinit_lock_acquire
+                0x000000000800202c        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x000000000800202c                __sinit_lock_acquire
  .text.__sinit_lock_release
-                0x0000000008001e7c        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008001e7c                __sinit_lock_release
- .text.__sinit  0x0000000008001e88       0x70 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008001e88                __sinit
- .text.__sfp    0x0000000008001ef8       0x8c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008001ef8                __sfp
+                0x0000000008002038        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008002038                __sinit_lock_release
+ .text.__sinit  0x0000000008002044       0x70 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008002044                __sinit
+ .text.__sfp    0x00000000080020b4       0x8c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080020b4                __sfp
  .text._fwalk_reent
-                0x0000000008001f84       0x3e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fwalk.o)
-                0x0000000008001f84                _fwalk_reent
+                0x0000000008002140       0x3e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fwalk.o)
+                0x0000000008002140                _fwalk_reent
  .text.__retarget_lock_init_recursive
-                0x0000000008001fc2        0x2 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000008001fc2                __retarget_lock_init_recursive
+                0x000000000800217e        0x2 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x000000000800217e                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x0000000008001fc4        0x2 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000008001fc4                __retarget_lock_acquire_recursive
+                0x0000000008002180        0x2 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000008002180                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008001fc6        0x2 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000008001fc6                __retarget_lock_release_recursive
- .text.memset   0x0000000008001fc8       0x10 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
-                0x0000000008001fc8                memset
+                0x0000000008002182        0x2 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000008002182                __retarget_lock_release_recursive
+ .text.memset   0x0000000008002184       0x10 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x0000000008002184                memset
  .text._malloc_r
-                0x0000000008001fd8       0xb4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000008001fd8                _malloc_r
- .text._puts_r  0x000000000800208c       0xdc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
-                0x000000000800208c                _puts_r
- .text.puts     0x0000000008002168       0x10 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
-                0x0000000008002168                puts
- .text._sbrk_r  0x0000000008002178       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
-                0x0000000008002178                _sbrk_r
- .text.__sread  0x0000000008002198       0x22 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
-                0x0000000008002198                __sread
+                0x0000000008002194       0xb4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008002194                _malloc_r
+ .text._puts_r  0x0000000008002248       0xdc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
+                0x0000000008002248                _puts_r
+ .text.puts     0x0000000008002324       0x10 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
+                0x0000000008002324                puts
+ .text._sbrk_r  0x0000000008002334       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                0x0000000008002334                _sbrk_r
+ .text.__sread  0x0000000008002354       0x22 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000008002354                __sread
  .text.__swrite
-                0x00000000080021ba       0x38 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
-                0x00000000080021ba                __swrite
- .text.__sseek  0x00000000080021f2       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
-                0x00000000080021f2                __sseek
+                0x0000000008002376       0x38 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000008002376                __swrite
+ .text.__sseek  0x00000000080023ae       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x00000000080023ae                __sseek
  .text.__sclose
-                0x0000000008002216        0x8 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
-                0x0000000008002216                __sclose
- .text          0x000000000800221e       0x14 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
-                0x000000000800221e                strcmp
+                0x00000000080023d2        0x8 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x00000000080023d2                __sclose
+ .text          0x00000000080023da       0x14 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
+                0x00000000080023da                strcmp
  .text._vsnprintf_r
-                0x0000000008002232       0x56 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
-                0x0000000008002232                _vsnprintf_r
-                0x0000000008002232                _vsniprintf_r
+                0x00000000080023ee       0x56 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
+                0x00000000080023ee                _vsnprintf_r
+                0x00000000080023ee                _vsniprintf_r
  .text.vsnprintf
-                0x0000000008002288       0x1c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
-                0x0000000008002288                vsnprintf
-                0x0000000008002288                vsniprintf
+                0x0000000008002444       0x1c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
+                0x0000000008002444                vsnprintf
+                0x0000000008002444                vsniprintf
  .text.__swbuf_r
-                0x00000000080022a4       0xa4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wbuf.o)
-                0x00000000080022a4                __swbuf_r
+                0x0000000008002460       0xa4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wbuf.o)
+                0x0000000008002460                __swbuf_r
  .text._write_r
-                0x0000000008002348       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-writer.o)
-                0x0000000008002348                _write_r
+                0x0000000008002504       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-writer.o)
+                0x0000000008002504                _write_r
  .text.__swsetup_r
-                0x000000000800236c       0xdc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wsetup.o)
-                0x000000000800236c                __swsetup_r
+                0x0000000008002528       0xdc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wsetup.o)
+                0x0000000008002528                __swsetup_r
  .text._close_r
-                0x0000000008002448       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-closer.o)
-                0x0000000008002448                _close_r
+                0x0000000008002604       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-closer.o)
+                0x0000000008002604                _close_r
  .text.__sflush_r
-                0x0000000008002468      0x104 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
-                0x0000000008002468                __sflush_r
+                0x0000000008002624      0x104 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
+                0x0000000008002624                __sflush_r
  .text._fflush_r
-                0x000000000800256c       0x78 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
-                0x000000000800256c                _fflush_r
+                0x0000000008002728       0x78 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
+                0x0000000008002728                _fflush_r
  .text._lseek_r
-                0x00000000080025e4       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lseekr.o)
-                0x00000000080025e4                _lseek_r
+                0x00000000080027a0       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lseekr.o)
+                0x00000000080027a0                _lseek_r
  .text.__swhatbuf_r
-                0x0000000008002608       0x4a /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
-                0x0000000008002608                __swhatbuf_r
- *fill*         0x0000000008002652        0x2 
+                0x00000000080027c4       0x4a /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                0x00000000080027c4                __swhatbuf_r
+ *fill*         0x000000000800280e        0x2 
  .text.__smakebuf_r
-                0x0000000008002654       0x80 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
-                0x0000000008002654                __smakebuf_r
+                0x0000000008002810       0x80 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                0x0000000008002810                __smakebuf_r
  .text.__malloc_lock
-                0x00000000080026d4        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
-                0x00000000080026d4                __malloc_lock
+                0x0000000008002890        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x0000000008002890                __malloc_lock
  .text.__malloc_unlock
-                0x00000000080026e0        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
-                0x00000000080026e0                __malloc_unlock
- .text._free_r  0x00000000080026ec       0x94 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
-                0x00000000080026ec                _free_r
+                0x000000000800289c        0xc /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x000000000800289c                __malloc_unlock
+ .text._free_r  0x00000000080028a8       0x94 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                0x00000000080028a8                _free_r
  .text.__ssputs_r
-                0x0000000008002780       0xb6 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008002780                __ssputs_r
- *fill*         0x0000000008002836        0x2 
+                0x000000000800293c       0xb6 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800293c                __ssputs_r
+ *fill*         0x00000000080029f2        0x2 
  .text._svfprintf_r
-                0x0000000008002838      0x200 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008002838                _svfprintf_r
-                0x0000000008002838                _svfiprintf_r
+                0x00000000080029f4      0x200 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000080029f4                _svfprintf_r
+                0x00000000080029f4                _svfiprintf_r
  .text._printf_common
-                0x0000000008002a38       0xda /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008002a38                _printf_common
- *fill*         0x0000000008002b12        0x2 
+                0x0000000008002bf4       0xda /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008002bf4                _printf_common
+ *fill*         0x0000000008002cce        0x2 
  .text._printf_i
-                0x0000000008002b14      0x24c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008002b14                _printf_i
- .text._read_r  0x0000000008002d60       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-readr.o)
-                0x0000000008002d60                _read_r
+                0x0000000008002cd0      0x24c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008002cd0                _printf_i
+ .text._read_r  0x0000000008002f1c       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-readr.o)
+                0x0000000008002f1c                _read_r
  .text._fstat_r
-                0x0000000008002d84       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fstatr.o)
-                0x0000000008002d84                _fstat_r
+                0x0000000008002f40       0x24 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fstatr.o)
+                0x0000000008002f40                _fstat_r
  .text._isatty_r
-                0x0000000008002da8       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-isattyr.o)
-                0x0000000008002da8                _isatty_r
- *fill*         0x0000000008002dc8        0x8 
- .text          0x0000000008002dd0       0xa0 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
-                0x0000000008002dd0                memchr
- .text.memcpy   0x0000000008002e70       0x1c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
-                0x0000000008002e70                memcpy
- .text.memmove  0x0000000008002e8c       0x34 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
-                0x0000000008002e8c                memmove
+                0x0000000008002f64       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-isattyr.o)
+                0x0000000008002f64                _isatty_r
+ *fill*         0x0000000008002f84        0xc 
+ .text          0x0000000008002f90       0xa0 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
+                0x0000000008002f90                memchr
+ .text.memcpy   0x0000000008003030       0x1c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008003030                memcpy
+ .text.memmove  0x000000000800304c       0x34 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
+                0x000000000800304c                memmove
  .text._realloc_r
-                0x0000000008002ec0       0x4c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
-                0x0000000008002ec0                _realloc_r
+                0x0000000008003080       0x4c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+                0x0000000008003080                _realloc_r
  .text._malloc_usable_size_r
-                0x0000000008002f0c       0x10 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
-                0x0000000008002f0c                _malloc_usable_size_r
+                0x00000000080030cc       0x10 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+                0x00000000080030cc                _malloc_usable_size_r
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata.HAL_NVIC_SetPriorityGrouping.str1.4
-                0x0000000008002f1c       0x31 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
- *fill*         0x0000000008002f4d        0x3 
+                0x00000000080030dc       0x31 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
+ *fill*         0x000000000800310d        0x3 
  .rodata.HAL_GPIO_Init.str1.4
-                0x0000000008002f50       0x2f ./system/src/stm32f4-hal/stm32f4xx_hal_gpio.o
- *fill*         0x0000000008002f7f        0x1 
+                0x0000000008003110       0x2f ./system/src/stm32f4-hal/stm32f4xx_hal_gpio.o
+ *fill*         0x000000000800313f        0x1 
  .rodata.HAL_RCC_OscConfig.str1.4
-                0x0000000008002f80       0x2e ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
- *fill*         0x0000000008002fae        0x2 
+                0x0000000008003140       0x2e ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
+ *fill*         0x000000000800316e        0x2 
  .rodata.initialise_monitor_handles.str1.4
-                0x0000000008002fb0        0x4 ./system/src/newlib/syscalls.o
+                0x0000000008003170        0x4 ./system/src/newlib/syscalls.o
  .rodata._trace_write_semihosting_stdout.str1.4
-                0x0000000008002fb4        0x4 ./system/src/diag/trace-impl.o
+                0x0000000008003174        0x4 ./system/src/diag/trace-impl.o
  .rodata.dumpExceptionStack.str1.4
-                0x0000000008002fb4      0x11a ./system/src/cortexm/exception-handlers.o
+                0x0000000008003174      0x11a ./system/src/cortexm/exception-handlers.o
  .rodata.isSemihosting.str1.4
-                0x00000000080030ce        0x4 ./system/src/cortexm/exception-handlers.o
- *fill*         0x00000000080030ce        0x2 
+                0x000000000800328e        0x4 ./system/src/cortexm/exception-handlers.o
+ *fill*         0x000000000800328e        0x2 
  .rodata.str1.4
-                0x00000000080030d0       0x2a ./system/src/cortexm/exception-handlers.o
- *fill*         0x00000000080030fa        0x2 
+                0x0000000008003290       0x2a ./system/src/cortexm/exception-handlers.o
+ *fill*         0x00000000080032ba        0x2 
  .rodata.AHBPrescTable
-                0x00000000080030fc       0x10 ./system/src/cmsis/system_stm32f4xx.o
-                0x00000000080030fc                AHBPrescTable
+                0x00000000080032bc       0x10 ./system/src/cmsis/system_stm32f4xx.o
+                0x00000000080032bc                AHBPrescTable
  .rodata.assert_failed.str1.4
-                0x000000000800310c       0x2d ./src/initialize-hardware.o
- *fill*         0x0000000008003139        0x3 
+                0x00000000080032cc       0x2d ./src/initialize-hardware.o
+ *fill*         0x00000000080032f9        0x3 
+ .rodata.blink_led_on.str1.4
+                0x00000000080032fc       0x92 ./src/led.o
+ *fill*         0x000000000800338e        0x2 
  .rodata.main.str1.4
-                0x000000000800313c       0x12 ./src/main.o
+                0x0000000008003390       0x58 ./src/main.o
+ .rodata.switching.str1.4
+                0x00000000080033e8       0x4d ./src/traffic_manager.o
+ *fill*         0x0000000008003435        0x3 
+ .rodata.display_queues.str1.4
+                0x0000000008003438       0x6c ./src/traffic_manager.o
+ .rodata.display_priority_queue.str1.4
+                0x00000000080034a4       0x1c ./src/traffic_manager.o
  .rodata._ctype_
-                0x000000000800314e      0x101 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
-                0x000000000800314e                _ctype_
- *fill*         0x000000000800324f        0x1 
+                0x00000000080034c0      0x101 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
+                0x00000000080034c0                _ctype_
+ *fill*         0x00000000080035c1        0x3 
  .rodata.__sf_fake_stderr
-                0x0000000008003250       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008003250                __sf_fake_stderr
+                0x00000000080035c4       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080035c4                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x0000000008003270       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008003270                __sf_fake_stdin
+                0x00000000080035e4       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080035e4                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x0000000008003290       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x0000000008003290                __sf_fake_stdout
+                0x0000000008003604       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008003604                __sf_fake_stdout
  .rodata._global_impure_ptr
-                0x00000000080032b0        0x4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
-                0x00000000080032b0                _global_impure_ptr
+                0x0000000008003624        0x4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x0000000008003624                _global_impure_ptr
  .rodata._svfprintf_r.str1.1
-                0x00000000080032b4       0x11 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008003628       0x11 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x00000000080032c5       0x22 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008003639       0x22 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x00000000080032e7        0x0 linker stubs
+ .glue_7        0x000000000800365b        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080032e7        0x0 linker stubs
+ .glue_7t       0x000000000800365b        0x0 linker stubs
 
-.vfp11_veneer   0x00000000080032e8        0x0
- .vfp11_veneer  0x00000000080032e8        0x0 linker stubs
+.vfp11_veneer   0x000000000800365c        0x0
+ .vfp11_veneer  0x000000000800365c        0x0 linker stubs
 
-.v4_bx          0x00000000080032e8        0x0
- .v4_bx         0x00000000080032e8        0x0 linker stubs
+.v4_bx          0x000000000800365c        0x0
+ .v4_bx         0x000000000800365c        0x0 linker stubs
 
-.iplt           0x00000000080032e8        0x0
- .iplt          0x00000000080032e8        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
+.iplt           0x000000000800365c        0x0
+ .iplt          0x000000000800365c        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080032e8                . = ALIGN (0x4)
-                0x00000000080032e8                __exidx_start = .
+                0x000000000800365c                . = ALIGN (0x4)
+                0x000000000800365c                __exidx_start = .
 
-.ARM.exidx      0x00000000080032e8        0x8
+.ARM.exidx      0x000000000800365c        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
  .ARM.exidx.text.__udivmoddi4
-                0x00000000080032e8        0x8 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
-                0x00000000080032f0                __exidx_end = .
+                0x000000000800365c        0x8 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x0000000008003664                __exidx_end = .
 
-.rel.dyn        0x00000000080032f0        0x0
- .rel.iplt      0x00000000080032f0        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
-                0x00000000080032f0                . = ALIGN (0x4)
-                0x00000000080032f0                _etext = .
-                0x00000000080032f0                __etext = .
+.rel.dyn        0x0000000008003664        0x0
+ .rel.iplt      0x0000000008003664        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
+                0x0000000008003664                . = ALIGN (0x4)
+                0x0000000008003664                _etext = .
+                0x0000000008003664                __etext = .
 
-.data_CCMRAM    0x0000000010000000        0x0 load address 0x00000000080032f0
+.data_CCMRAM    0x0000000010000000        0x0 load address 0x0000000008003664
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000010000000                . = ALIGN (0x4)
-                0x00000000080032f0                _sidata = LOADADDR (.data)
+                0x0000000008003664                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x78 load address 0x00000000080032f0
+.data           0x0000000020000000       0x78 load address 0x0000000008003664
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
@@ -4860,13 +5107,13 @@ END GROUP
                 0x0000000020000078                _edata = .
                 0x0000000020000078                __data_end__ = .
 
-.igot.plt       0x0000000020000078        0x0 load address 0x0000000008003368
+.igot.plt       0x0000000020000078        0x0 load address 0x00000000080036dc
  .igot.plt      0x0000000020000078        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
 
 .bss_CCMRAM     0x0000000010000000        0x0
  *(.bss.CCMRAM .bss.CCMRAM.*)
 
-.bss            0x0000000020000078      0x1cc
+.bss            0x0000000020000078      0x1d4
                 0x0000000020000078                __bss_start__ = .
                 0x0000000020000078                _sbss = .
  *(.bss_begin .bss_begin.*)
@@ -4892,48 +5139,59 @@ END GROUP
                 0x000000002000010c       0xa0 ./system/src/newlib/syscalls.o
  .bss.handle.0  0x00000000200001ac        0x4 ./system/src/diag/trace-impl.o
  .bss.buf.0     0x00000000200001b0       0x80 ./system/src/diag/trace.o
+ .bss.priority  0x0000000020000230        0x2 ./src/main.o
+                0x0000000020000230                priority
+ .bss.queue_a   0x0000000020000232        0x1 ./src/main.o
+                0x0000000020000232                queue_a
+ .bss.queue_b   0x0000000020000233        0x1 ./src/main.o
+                0x0000000020000233                queue_b
+ .bss.queue_c   0x0000000020000234        0x1 ./src/main.o
+                0x0000000020000234                queue_c
+ .bss.queue_d   0x0000000020000235        0x1 ./src/main.o
+                0x0000000020000235                queue_d
+ *fill*         0x0000000020000236        0x2 
  .bss.timer_delayCount
-                0x0000000020000230        0x4 ./src/timer.o
-                0x0000000020000230                timer_delayCount
+                0x0000000020000238        0x4 ./src/timer.o
+                0x0000000020000238                timer_delayCount
  .bss.__lock___malloc_recursive_mutex
-                0x0000000020000234        0x1 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000020000234                __lock___malloc_recursive_mutex
+                0x000000002000023c        0x1 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x000000002000023c                __lock___malloc_recursive_mutex
  .bss.__lock___sfp_recursive_mutex
-                0x0000000020000235        0x1 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000020000235                __lock___sfp_recursive_mutex
+                0x000000002000023d        0x1 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x000000002000023d                __lock___sfp_recursive_mutex
  .bss.__lock___sinit_recursive_mutex
-                0x0000000020000236        0x1 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000020000236                __lock___sinit_recursive_mutex
- *fill*         0x0000000020000237        0x1 
+                0x000000002000023e        0x1 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x000000002000023e                __lock___sinit_recursive_mutex
+ *fill*         0x000000002000023f        0x1 
  .bss.__malloc_free_list
-                0x0000000020000238        0x4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020000238                __malloc_free_list
+                0x0000000020000240        0x4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000240                __malloc_free_list
  .bss.__malloc_sbrk_start
-                0x000000002000023c        0x4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
-                0x000000002000023c                __malloc_sbrk_start
+                0x0000000020000244        0x4 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000244                __malloc_sbrk_start
  *(COMMON)
  *(.bss_end .bss_end.*)
- .bss_end       0x0000000020000240        0x4 ./system/src/newlib/startup.o
-                0x0000000020000244                . = ALIGN (0x4)
-                0x0000000020000244                __bss_end__ = .
-                0x0000000020000244                _ebss = .
+ .bss_end       0x0000000020000248        0x4 ./system/src/newlib/startup.o
+                0x000000002000024c                . = ALIGN (0x4)
+                0x000000002000024c                __bss_end__ = .
+                0x000000002000024c                _ebss = .
 
 .noinit_CCMRAM
  *(.noinit.CCMRAM .noinit.CCMRAM.*)
 
-.noinit         0x0000000020000244        0x0
-                0x0000000020000244                _noinit = .
+.noinit         0x000000002000024c        0x0
+                0x000000002000024c                _noinit = .
  *(.noinit .noinit.*)
-                0x0000000020000244                . = ALIGN (0x4)
-                0x0000000020000244                _end_noinit = .
+                0x000000002000024c                . = ALIGN (0x4)
+                0x000000002000024c                _end_noinit = .
                 [!provide]                        PROVIDE (end = _end_noinit)
                 [!provide]                        PROVIDE (_end = _end_noinit)
                 [!provide]                        PROVIDE (__end = _end_noinit)
                 [!provide]                        PROVIDE (__end__ = _end_noinit)
 
-._check_stack   0x0000000020000244      0x100
-                0x0000000020000344                . = (. + _Minimum_Stack_Size)
- *fill*         0x0000000020000244      0x100 
+._check_stack   0x000000002000024c      0x100
+                0x000000002000034c                . = (. + _Minimum_Stack_Size)
+ *fill*         0x000000002000024c      0x100 
 
 .b1text
  *(.b1text)
@@ -4999,6 +5257,7 @@ END GROUP
  .comment       0x0000000000000044       0x45 ./src/main.o
  .comment       0x0000000000000044       0x45 ./src/stm32f4xx_hal_msp.o
  .comment       0x0000000000000044       0x45 ./src/timer.o
+ .comment       0x0000000000000044       0x45 ./src/traffic_manager.o
 
 .ARM.attributes
                 0x0000000000000000       0x2c
@@ -5039,75 +5298,77 @@ END GROUP
  .ARM.attributes
                 0x000000000000030e       0x2e ./src/timer.o
  .ARM.attributes
-                0x000000000000033c       0x1e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x000000000000033c       0x2e ./src/traffic_manager.o
  .ARM.attributes
-                0x000000000000035a       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x000000000000036a       0x1e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x0000000000000388       0x1e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000000000388       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x00000000000003a6       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
+                0x00000000000003b6       0x1e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000000000003d4       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
+                0x00000000000003d4       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-ctype_.o)
  .ARM.attributes
-                0x0000000000000402       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000000000402       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x0000000000000430       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fwalk.o)
+                0x0000000000000430       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
  .ARM.attributes
-                0x000000000000045e       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x000000000000045e       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fwalk.o)
  .ARM.attributes
-                0x000000000000048c       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x000000000000048c       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000000000004ba       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x00000000000004ba       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
  .ARM.attributes
-                0x00000000000004e8       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000000000004e8       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000000000000516       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
+                0x0000000000000516       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000000000000544       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                0x0000000000000544       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
  .ARM.attributes
-                0x0000000000000572       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000000000572       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000000000005a0       0x1c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
+                0x00000000000005a0       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
  .ARM.attributes
-                0x00000000000005bc       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
+                0x00000000000005ce       0x1c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x00000000000005ea       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wbuf.o)
+                0x00000000000005ea       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
  .ARM.attributes
-                0x0000000000000618       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-writer.o)
+                0x0000000000000618       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wbuf.o)
  .ARM.attributes
-                0x0000000000000646       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wsetup.o)
+                0x0000000000000646       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-writer.o)
  .ARM.attributes
-                0x0000000000000674       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-closer.o)
+                0x0000000000000674       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wsetup.o)
  .ARM.attributes
-                0x00000000000006a2       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
+                0x00000000000006a2       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-closer.o)
  .ARM.attributes
-                0x00000000000006d0       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lseekr.o)
+                0x00000000000006d0       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
  .ARM.attributes
-                0x00000000000006fe       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                0x00000000000006fe       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lseekr.o)
  .ARM.attributes
-                0x000000000000072c       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x000000000000072c       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
  .ARM.attributes
-                0x000000000000075a       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                0x000000000000075a       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000000000000788       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000000000788       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x00000000000007b6       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000007b6       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x00000000000007e4       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-readr.o)
+                0x00000000000007e4       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x0000000000000812       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fstatr.o)
+                0x0000000000000812       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-readr.o)
  .ARM.attributes
-                0x0000000000000840       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-isattyr.o)
+                0x0000000000000840       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fstatr.o)
  .ARM.attributes
-                0x000000000000086e       0x1c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
+                0x000000000000086e       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-isattyr.o)
  .ARM.attributes
-                0x000000000000088a       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                0x000000000000089c       0x1c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
  .ARM.attributes
-                0x00000000000008b8       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
+                0x00000000000008b8       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x00000000000008e6       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+                0x00000000000008e6       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x0000000000000914       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+                0x0000000000000914       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000000000000942       0x2e /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
 
 .debug
  *(.debug)
@@ -5121,7 +5382,7 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000      0x658
+.debug_aranges  0x0000000000000000      0x698
  *(.debug_aranges)
  .debug_aranges
                 0x0000000000000000       0xf0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
@@ -5159,11 +5420,13 @@ END GROUP
                 0x00000000000005e8       0x38 ./src/stm32f4xx_hal_msp.o
  .debug_aranges
                 0x0000000000000620       0x38 ./src/timer.o
+ .debug_aranges
+                0x0000000000000658       0x40 ./src/traffic_manager.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x8e10
+.debug_info     0x0000000000000000     0x9481
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0xa37 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_info    0x0000000000000a37     0x1340 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -5179,12 +5442,13 @@ END GROUP
  .debug_info    0x0000000000007100      0x53c ./system/src/cmsis/system_stm32f4xx.o
  .debug_info    0x000000000000763c       0xce ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_info    0x000000000000770a      0x59b ./src/initialize-hardware.o
- .debug_info    0x0000000000007ca5      0x44c ./src/led.o
- .debug_info    0x00000000000080f1      0x4d7 ./src/main.o
- .debug_info    0x00000000000085c8       0xbf ./src/stm32f4xx_hal_msp.o
- .debug_info    0x0000000000008687      0x789 ./src/timer.o
+ .debug_info    0x0000000000007ca5      0x5f5 ./src/led.o
+ .debug_info    0x000000000000829a      0x65c ./src/main.o
+ .debug_info    0x00000000000088f6       0xbf ./src/stm32f4xx_hal_msp.o
+ .debug_info    0x00000000000089b5      0x789 ./src/timer.o
+ .debug_info    0x000000000000913e      0x343 ./src/traffic_manager.o
 
-.debug_abbrev   0x0000000000000000     0x20e9
+.debug_abbrev   0x0000000000000000     0x22c0
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x209 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_abbrev  0x0000000000000209      0x38a ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -5200,12 +5464,13 @@ END GROUP
  .debug_abbrev  0x00000000000018a3      0x11c ./system/src/cmsis/system_stm32f4xx.o
  .debug_abbrev  0x00000000000019bf       0xa5 ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_abbrev  0x0000000000001a64      0x170 ./src/initialize-hardware.o
- .debug_abbrev  0x0000000000001bd4      0x151 ./src/led.o
- .debug_abbrev  0x0000000000001d25      0x18c ./src/main.o
- .debug_abbrev  0x0000000000001eb1       0x47 ./src/stm32f4xx_hal_msp.o
- .debug_abbrev  0x0000000000001ef8      0x1f1 ./src/timer.o
+ .debug_abbrev  0x0000000000001bd4      0x1a2 ./src/led.o
+ .debug_abbrev  0x0000000000001d76      0x1f0 ./src/main.o
+ .debug_abbrev  0x0000000000001f66       0x47 ./src/stm32f4xx_hal_msp.o
+ .debug_abbrev  0x0000000000001fad      0x1f1 ./src/timer.o
+ .debug_abbrev  0x000000000000219e      0x122 ./src/traffic_manager.o
 
-.debug_line     0x0000000000000000     0xd076
+.debug_line     0x0000000000000000     0xdd82
  *(.debug_line)
  .debug_line    0x0000000000000000      0xd8a ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_line    0x0000000000000d8a     0x10d2 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -5221,12 +5486,13 @@ END GROUP
  .debug_line    0x0000000000008aff      0xae4 ./system/src/cmsis/system_stm32f4xx.o
  .debug_line    0x00000000000095e3      0x2ea ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_line    0x00000000000098cd      0xbff ./src/initialize-hardware.o
- .debug_line    0x000000000000a4cc      0xa5f ./src/led.o
- .debug_line    0x000000000000af2b      0xbef ./src/main.o
- .debug_line    0x000000000000bb1a      0xa42 ./src/stm32f4xx_hal_msp.o
- .debug_line    0x000000000000c55c      0xb1a ./src/timer.o
+ .debug_line    0x000000000000a4cc      0xaa7 ./src/led.o
+ .debug_line    0x000000000000af73      0xc20 ./src/main.o
+ .debug_line    0x000000000000bb93      0xa42 ./src/stm32f4xx_hal_msp.o
+ .debug_line    0x000000000000c5d5      0xb1a ./src/timer.o
+ .debug_line    0x000000000000d0ef      0xc93 ./src/traffic_manager.o
 
-.debug_frame    0x0000000000000000     0x17a8
+.debug_frame    0x0000000000000000     0x183c
  *(.debug_frame)
  .debug_frame   0x0000000000000000      0x1f0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_frame   0x00000000000001f0      0x19c ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -5246,39 +5512,40 @@ END GROUP
  .debug_frame   0x0000000000000e14       0x44 ./src/main.o
  .debug_frame   0x0000000000000e58       0x50 ./src/stm32f4xx_hal_msp.o
  .debug_frame   0x0000000000000ea8       0x58 ./src/timer.o
- .debug_frame   0x0000000000000f00       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000000000000f2c       0x34 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000000000000f60       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000000f80      0x14c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
- .debug_frame   0x00000000000010cc       0x54 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fwalk.o)
- .debug_frame   0x0000000000001120       0xb0 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
- .debug_frame   0x00000000000011d0       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
- .debug_frame   0x00000000000011f0       0x30 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x0000000000001220       0x3c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
- .debug_frame   0x000000000000125c       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000001288       0x88 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
- .debug_frame   0x0000000000001310       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
- .debug_frame   0x0000000000001330       0x4c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
- .debug_frame   0x000000000000137c       0x40 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wbuf.o)
- .debug_frame   0x00000000000013bc       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-writer.o)
- .debug_frame   0x00000000000013e8       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wsetup.o)
- .debug_frame   0x0000000000001414       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-closer.o)
- .debug_frame   0x0000000000001440       0x5c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
- .debug_frame   0x000000000000149c       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lseekr.o)
- .debug_frame   0x00000000000014c8       0x58 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
- .debug_frame   0x0000000000001520       0x30 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000001550       0x38 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000000000001588       0x90 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x0000000000001618       0x60 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000000000001678       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-readr.o)
- .debug_frame   0x00000000000016a4       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fstatr.o)
- .debug_frame   0x00000000000016d0       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-isattyr.o)
- .debug_frame   0x00000000000016fc       0x28 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000001724       0x28 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
- .debug_frame   0x000000000000174c       0x3c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000000000001788       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000000f00       0x94 ./src/traffic_manager.o
+ .debug_frame   0x0000000000000f94       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000000fc0       0x34 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000000ff4       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000001014      0x14c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .debug_frame   0x0000000000001160       0x54 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x00000000000011b4       0xb0 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000001264       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001284       0x30 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000012b4       0x3c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
+ .debug_frame   0x00000000000012f0       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x000000000000131c       0x88 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .debug_frame   0x00000000000013a4       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x00000000000013c4       0x4c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-vsnprintf.o)
+ .debug_frame   0x0000000000001410       0x40 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x0000000000001450       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-writer.o)
+ .debug_frame   0x000000000000147c       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x00000000000014a8       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-closer.o)
+ .debug_frame   0x00000000000014d4       0x5c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .debug_frame   0x0000000000001530       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x000000000000155c       0x58 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x00000000000015b4       0x30 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000015e4       0x38 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x000000000000161c       0x90 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x00000000000016ac       0x60 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x000000000000170c       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-readr.o)
+ .debug_frame   0x0000000000001738       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x0000000000001764       0x2c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x0000000000001790       0x28 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000000000017b8       0x28 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x00000000000017e0       0x3c /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x000000000000181c       0x20 /home/virgocoachman/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x0000000000000000    0xf75dd
+.debug_str      0x0000000000000000    0xf7708
  *(.debug_str)
  .debug_str     0x0000000000000000    0xeeba6 ./system/src/stm32f4-hal/stm32f4xx_hal.o
                                       0xeef34 (size before relaxing)
@@ -5308,16 +5575,18 @@ END GROUP
                                        0x3cc6 (size before relaxing)
  .debug_str     0x00000000000f724e       0x30 ./src/initialize-hardware.o
                                       0xf159e (size before relaxing)
- .debug_str     0x00000000000f727e      0x137 ./src/led.o
-                                      0xee487 (size before relaxing)
- .debug_str     0x00000000000f73b5      0x19a ./src/main.o
-                                      0xf2d77 (size before relaxing)
- .debug_str     0x00000000000f754f       0x3d ./src/stm32f4xx_hal_msp.o
+ .debug_str     0x00000000000f727e      0x18b ./src/led.o
+                                      0xee506 (size before relaxing)
+ .debug_str     0x00000000000f7409      0x202 ./src/main.o
+                                      0xf2e57 (size before relaxing)
+ .debug_str     0x00000000000f760b       0x3d ./src/stm32f4xx_hal_msp.o
                                       0xee1fe (size before relaxing)
- .debug_str     0x00000000000f758c       0x51 ./src/timer.o
+ .debug_str     0x00000000000f7648       0x45 ./src/timer.o
                                       0xee8e2 (size before relaxing)
+ .debug_str     0x00000000000f768d       0x7b ./src/traffic_manager.o
+                                      0xf2be3 (size before relaxing)
 
-.debug_loc      0x0000000000000000     0x39d9
+.debug_loc      0x0000000000000000     0x3d2f
  *(.debug_loc)
  .debug_loc     0x0000000000000000      0x130 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_loc     0x0000000000000130      0x92e ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -5331,8 +5600,10 @@ END GROUP
  .debug_loc     0x000000000000324c      0x524 ./system/src/cortexm/exception-handlers.o
  .debug_loc     0x0000000000003770      0x158 ./system/src/cmsis/system_stm32f4xx.o
  .debug_loc     0x00000000000038c8       0x64 ./src/initialize-hardware.o
- .debug_loc     0x000000000000392c       0x4a ./src/main.o
- .debug_loc     0x0000000000003976       0x63 ./src/timer.o
+ .debug_loc     0x000000000000392c       0xa9 ./src/led.o
+ .debug_loc     0x00000000000039d5       0x6c ./src/main.o
+ .debug_loc     0x0000000000003a41       0x63 ./src/timer.o
+ .debug_loc     0x0000000000003aa4      0x28b ./src/traffic_manager.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -5351,7 +5622,7 @@ END GROUP
 OUTPUT(Smart_traffic_light.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_ranges   0x0000000000000000      0x640
+.debug_ranges   0x0000000000000000      0x688
  .debug_ranges  0x0000000000000000       0xe0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_ranges  0x00000000000000e0      0x128 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
  .debug_ranges  0x0000000000000208       0x48 ./system/src/stm32f4-hal/stm32f4xx_hal_gpio.o
@@ -5367,11 +5638,12 @@ LOAD linker stubs
  .debug_ranges  0x0000000000000588       0x10 ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_ranges  0x0000000000000598       0x20 ./src/initialize-hardware.o
  .debug_ranges  0x00000000000005b8       0x20 ./src/led.o
- .debug_ranges  0x00000000000005d8       0x18 ./src/main.o
- .debug_ranges  0x00000000000005f0       0x28 ./src/stm32f4xx_hal_msp.o
- .debug_ranges  0x0000000000000618       0x28 ./src/timer.o
+ .debug_ranges  0x00000000000005d8       0x30 ./src/main.o
+ .debug_ranges  0x0000000000000608       0x28 ./src/stm32f4xx_hal_msp.o
+ .debug_ranges  0x0000000000000630       0x28 ./src/timer.o
+ .debug_ranges  0x0000000000000658       0x30 ./src/traffic_manager.o
 
-.debug_macro    0x0000000000000000    0x2944b
+.debug_macro    0x0000000000000000    0x29a1d
  .debug_macro   0x0000000000000000      0x44c ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_macro   0x000000000000044c      0xa84 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_macro   0x0000000000000ed0      0x3a2 ./system/src/stm32f4-hal/stm32f4xx_hal.o
@@ -5494,10 +5766,11 @@ LOAD linker stubs
  .debug_macro   0x0000000000027c5d       0x73 ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_macro   0x0000000000027cd0      0x507 ./src/initialize-hardware.o
  .debug_macro   0x00000000000281d7      0x3fb ./src/led.o
- .debug_macro   0x00000000000285d2       0x28 ./src/led.o
- .debug_macro   0x00000000000285fa      0x5c4 ./src/main.o
- .debug_macro   0x0000000000028bbe       0x54 ./src/main.o
- .debug_macro   0x0000000000028c12       0x2e ./src/main.o
- .debug_macro   0x0000000000028c40      0x3ec ./src/stm32f4xx_hal_msp.o
- .debug_macro   0x000000000002902c      0x40f ./src/timer.o
- .debug_macro   0x000000000002943b       0x10 ./src/timer.o
+ .debug_macro   0x00000000000285d2       0x3a ./src/led.o
+ .debug_macro   0x000000000002860c      0x5c4 ./src/main.o
+ .debug_macro   0x0000000000028bd0       0x54 ./src/main.o
+ .debug_macro   0x0000000000028c24       0x40 ./src/main.o
+ .debug_macro   0x0000000000028c64      0x3ec ./src/stm32f4xx_hal_msp.o
+ .debug_macro   0x0000000000029050      0x40f ./src/timer.o
+ .debug_macro   0x000000000002945f       0x10 ./src/timer.o
+ .debug_macro   0x000000000002946f      0x5ae ./src/traffic_manager.o

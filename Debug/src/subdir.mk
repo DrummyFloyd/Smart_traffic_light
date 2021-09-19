@@ -9,6 +9,7 @@ C_SRCS += \
 ../src/main.c \
 ../src/stm32f4xx_hal_msp.c \
 ../src/timer.c \
+../src/traffic_manager.c \
 ../src/write.c 
 
 C_DEPS += \
@@ -17,6 +18,7 @@ C_DEPS += \
 ./src/main.d \
 ./src/stm32f4xx_hal_msp.d \
 ./src/timer.d \
+./src/traffic_manager.d \
 ./src/write.d 
 
 OBJS += \
@@ -25,6 +27,7 @@ OBJS += \
 ./src/main.o \
 ./src/stm32f4xx_hal_msp.o \
 ./src/timer.o \
+./src/traffic_manager.o \
 ./src/write.o 
 
 
